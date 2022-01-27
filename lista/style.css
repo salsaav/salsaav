@@ -1,0 +1,45 @@
+
+img {
+    height: 30%;
+    width: 50%;
+}
+
+li {
+    margin: 20px;
+    font-size: large;
+    color: rgba(145, 117, 66, 0.856);
+    font-family: 'Times New Roman';
+}
+
+li a{
+    text-decoration: none;
+    color: rgb(70, 70, 70);
+    background-color: floralwhite;
+}
+
+ul {
+    display: -webkit-inline-flex;
+} 
+
+h1 {
+    padding: 20px;
+    border: 10px;;
+    font-size: xx-large;
+    color: rgb(107, 106, 106);
+    font-family: Georgia;
+    background-color: rgb(226, 204, 159);
+    text-align: center;
+}
+
+footer {
+    height: 70px;
+    width: 100%;
+    padding-top: 200px;
+    text-align: right;
+    color: cadetblue;
+}
+
+.imagen {
+    height: 50px;
+    width: 50px;
+}
