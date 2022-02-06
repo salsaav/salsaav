@@ -1,44 +1,113 @@
-
-img {
-    height: 25%;
-    width: 55%;
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
-li {
-    margin: 20px;
-    font-size: large;
-    color: rgba(145, 117, 66, 0.856);
-    font-family: 'Times New Roman';
+html {
+    font-size: 62.5%;
 }
 
-li a{
-    text-decoration: none;
-    color: rgb(70, 70, 70);
-    background-color: floralwhite;
+main {
+    margin-bottom: 200px;
+}
+
+h1 {
+    margin: 37% 37%;
+    margin-top: -10px;
+    margin-bottom: 10px;
+    padding: 20px;
+    padding-top: 30px;
+    border-radius: 10px;
+    font-size: 3.2rem;
+    color: rgb(179, 179, 179);
+    font-family: Georgia;
+    background-color: rgb(40, 34, 90);
+    text-align: center;
 }
 
 ul {
     display: -webkit-inline-flex;
+    margin: 15px 15px;
 } 
 
-h1 {
-    padding: 20px;
-    border: 10px;;
-    font-size: xx-large;
-    color: rgb(107, 106, 106);
-    font-family: Georgia;
-    background-color: rgb(226, 204, 159);
-    text-align: center;
+ol {
+    max-width: 540;
+    margin: 10px 10px;
+    padding: 10px;
+    border: 3px ridge gray;
+    border-radius: 10px;
+    background-color: rgb(90, 143, 90);
+}
+
+li {
+    margin: 20px;
+    font-size: 2rem;
+    color: rgb(0, 0, 0);
+    font-family: 'Times New Roman';
+}
+
+.carne {    
+    width: 23%;
+    padding: 6px;
+    transform:translateX(145px);
+    list-style: inside;
+    font-size: 2.2rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: rgb(202, 38, 38);
+    border: 2px dotted rgb(163, 16, 16);
+}
+
+.verduras {
+    width: 30%;
+    padding: 6px;
+    transform:translateX(127px);
+    list-style: inside;
+    font-size: 2.2rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: rgb(49, 192, 56);
+    border: 2px solid;
+}
+
+.miselaneos {
+    width: 35%;
+    padding: 6px;
+    transform:translateX(126px);
+    list-style: inside;
+    font-size: 2.2rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: rgb(202, 125, 38);
+    border: 2px solid;
+}
+
+li a {
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.8rem;
+    color: rgb(43, 42, 42);    
+}
+
+img {
+    height: 30%;
+    width: 80%;
+    display: list-item;
 }
 
 footer {
-    padding-top: 70px;
     padding-bottom: 15px;
     text-align: center;
-    color: rgb(71, 168, 170);
+    font-size: 1.8rem;
+    color: rgb(32, 138, 139);
+}
+
+footer a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .imagen {
     height: 50px;
     width: 50px;
+    margin: 10px;
 }
