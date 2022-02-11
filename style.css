@@ -1,3 +1,8 @@
+:root {
+    --fondo--oscuro: #272727;
+    --text-ligth: #f1eded;
+}
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -6,6 +11,7 @@
 
 html {
     font-size: 62.5%;
+    background-color: var(--fondo--oscuro);
 }
 
 main {
@@ -20,10 +26,11 @@ h1 {
     padding-top: 30px;
     border-radius: 10px;
     font-size: 3.2rem;
-    color: rgb(179, 179, 179);
+    color: var(--text-ligth);
     font-family: Georgia;
-    background-color: rgb(40, 34, 90);
+    background-color: rgb(37, 36, 121);
     text-align: center;
+    border: #f1eded solid 1px;
 }
 
 ul {
@@ -31,20 +38,12 @@ ul {
     margin: 15px 15px;
 } 
 
-ol {
-    max-width: 540;
-    margin: 10px 10px;
-    padding: 10px;
-    border: 3px ridge gray;
-    border-radius: 10px;
-    background-color: rgb(90, 143, 90);
-}
-
 li {
     margin: 20px;
-    font-size: 2rem;
+    font-size: 2.2rem;
     color: rgb(0, 0, 0);
     font-family: 'Times New Roman';
+    border-radius: 7px;
 }
 
 .carne {    
@@ -55,7 +54,7 @@ li {
     font-size: 2.2rem;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     background-color: rgb(202, 38, 38);
-    border: 2px dotted rgb(163, 16, 16);
+    border: 2px solid rgb(0, 0, 0);
 }
 
 .verduras {
@@ -80,16 +79,26 @@ li {
     border: 2px solid;
 }
 
+ol {
+    max-width: 540;
+    margin: 10px 10px;
+    padding: 10px;
+    border: var(--text-ligth) 1px ridge;
+    border-radius: 20px;
+    background-color: rgb(22, 37, 63);
+}
+
 li a {
     text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1.8rem;
-    color: rgb(43, 42, 42);    
+    color: var(--text-ligth);    
 }
 
 img {
-    height: 30%;
-    width: 80%;
+    height: 25%;
+    width: 100%;
+    border-radius: 5px;
     display: list-item;
 }
 
@@ -97,13 +106,16 @@ footer {
     padding-bottom: 15px;
     text-align: center;
     font-size: 1.8rem;
+    text-decoration: none;
     color: rgb(32, 138, 139);
 }
 
 footer a {
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center;    
+    text-decoration: none;
+    color: var(--text-ligth);
 }
 
 .imagen {
